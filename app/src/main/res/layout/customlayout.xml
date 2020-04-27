@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/stateTextView"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Loading..."
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cnfmdTextView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Loading..."
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/actvTextView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Loading..."
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/rcvrdTextView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Loading..."
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/dcsdTextView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Loading..."
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
